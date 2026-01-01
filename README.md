@@ -1,6 +1,8 @@
 AI-Powered Network Intrusion Detection System (NIDS)
+
 📌 Project Overview
 This project is an interactive web-based dashboard designed to detect potential cyberattacks in network traffic. Using the Random Forest machine learning algorithm, the system classifies network connections into two categories: Benign (safe) and Malicious (threats).
+
 
 🚀 Features
 Synthetic Data Generation: Mimics real-world network traffic logs based on the CIC-IDS2017 structure.
@@ -12,6 +14,7 @@ Performance Metrics: Displays accuracy scores and a confusion matrix to visualiz
 Live Traffic Simulator: A manual testing interface where users can input packet details to see if the AI flags them as an attack.
 
 🛠️ Technologies Used
+
 Python: Core programming language.
 
 Streamlit: For the interactive web dashboard.
@@ -23,6 +26,7 @@ Pandas & NumPy: For data manipulation and synthetic log generation.
 Seaborn & Matplotlib: For data visualization and confusion matrix plotting.
 
 📋 How to Use
+
 Install Requirements:
 
 Bash/cmd
