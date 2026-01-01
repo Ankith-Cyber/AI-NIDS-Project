@@ -1,0 +1,19 @@
+Library Overview: 
+● pandas & numpy: Data manipulation and numerical operations. 
+● scikit-learn: Implementation of the Random Forest algorithm. 
+● streamlit: Framework for the web-based dashboard UI. 
+● seaborn & matplotlib: Data visualization and plotting.
+
+ System Tools 
+● Command Line Interface: Windows Command Prompt (cmd), PowerShell, or 
+macOS/Linux Terminal.
+
+ Core Software 
+Python Interpreter (v3.8 or higher) 
+○ Source: Official Python Website 
+○ Critical Configuration: During installation, ensure the checkbox "Add Python to 
+PATH" is selected. This allows Python commands to be executed from the terminal.
+ 
+Integrated Development Environment (IDE) 
+○ Recommended: Visual Studio Code (VS Code) 
+○ Alternative: PyCharm or Jupyter Notebook
