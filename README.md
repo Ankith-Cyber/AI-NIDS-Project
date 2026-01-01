@@ -1,16 +1,43 @@
-# AI-NIDS-Project
- AI-Powered Network  Intrusion Detection System (NIDS). It outlines the necessary environment prerequisites,  installation procedures, and execution steps required to deploy the Machine Learning model  and the real-time monitoring dashboard. 
-# AI-Powered Network Intrusion Detection System (NIDS)
+AI-Powered Network Intrusion Detection System (NIDS)
+📌 Project Overview
+This project is an interactive web-based dashboard designed to detect potential cyberattacks in network traffic. Using the Random Forest machine learning algorithm, the system classifies network connections into two categories: Benign (safe) and Malicious (threats).
 
-[cite_start]This project is a web-based dashboard that uses a **Random Forest Classifier** to detect malicious network traffic[cite: 15].
+🚀 Features
+Synthetic Data Generation: Mimics real-world network traffic logs based on the CIC-IDS2017 structure.
 
-## Features
-- [cite_start]**Synthetic Data Generation:** Mimics real-world network traffic logs[cite: 23].
-- [cite_start]**Live Simulator:** Test manual packet entries for instant classification[cite: 88].
-- [cite_start]**Visual Analytics:** View model accuracy and confusion matrices[cite: 78, 80].
+Real-Time Training: Users can adjust training parameters like the number of trees and data split size directly from the sidebar.
 
-## How to Run
-1. Clone this repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `streamlit run app.py`
+Performance Metrics: Displays accuracy scores and a confusion matrix to visualize how well the AI is performing.
+
+Live Traffic Simulator: A manual testing interface where users can input packet details to see if the AI flags them as an attack.
+
+🛠️ Technologies Used
+Python: Core programming language.
+
+Streamlit: For the interactive web dashboard.
+
+Scikit-Learn: For the Random Forest machine learning model.
+
+Pandas & NumPy: For data manipulation and synthetic log generation.
+
+Seaborn & Matplotlib: For data visualization and confusion matrix plotting.
+
+📋 How to Use
+Install Requirements:
+
+Bash/cmd
+
+pip install streamlit pandas numpy scikit-learn seaborn matplotlib
+Run the Application:
+
+Bash/cmd
+
+streamlit run app.py
+Train the Model: Use the sidebar to set parameters and click "Train Model Now".
+
+Test for Attacks: Scroll to the "Live Traffic Simulator" and enter custom values for flow duration and packet counts to test the AI's detection.
+
+Why use Random Forest for NIDS?
+The Random Forest algorithm is highly effective for network security because it builds multiple decision trees and merges them together to get a more accurate and stable prediction. It is particularly good at identifying patterns in complex network features like flow duration and packet length.
+
 By Ankith Kumar
